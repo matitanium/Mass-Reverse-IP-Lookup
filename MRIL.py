@@ -4,19 +4,22 @@ import json
 import requests
 import os
 
-print("\n******************************************************")
-print("*                                                    *")
-print("*  __  __ _____  _____ _                             *")
-print("* |  \\/  |  __ \\|_   _| |                            *")
-print("* | \\  / | |__) | | | | |                            *")
-print("* | |\\/| |  _  /  | | | |                            *")
-print("* | |  | | | \\ \\ _| |_| |____                        *")
-print("* |_|  |_|_|  \\_\\_____|______|                       *")
-print("*                                                    *")
-print("* Mass Reverse IP Lookup                             *")
-print("* Coded by thebish0p                                 *")
-print("* https://github.com/thebish0p/                      *")
-print("******************************************************\n")
+print("""
+    \n******************************************************
+      *                                                    *
+      *  __  __ _____  _____ _                             *
+      * |  \\/  |  __ \\|_   _| |                          *
+      * | \\  / | |__) | | | | |                           *
+      * | |\\/| |  _  /  | | | |                           *
+      * | |  | | | \\ \\ _| |_| |____                      *
+      * |_|  |_|_|  \\_\\_____|______|                     *
+      *                                                    *
+      * Mass Reverse IP Lookup                             *
+      * Coded by thebish0p  v Matitanium                   *
+      * https://github.com/thebish0p/                      *
+      * And                                                *
+      * https://github.com/matitanium                      *
+      ******************************************************\n"""
 
 INPUT_HANDLE=input('[*] Enter ip addresses file: ')
 OUTPUT_HANDLE = open('output.txt', 'a')
